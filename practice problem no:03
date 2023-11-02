@@ -1,0 +1,20 @@
+//convert a double number in a int number
+#include <stdio.h>
+
+int main()
+{
+    int a=(int) 1.999999;
+    printf("%d",a);
+
+    return 0;
+}
+/*we can code it another way also*/
+#include <stdio.h>
+
+int main()
+{
+    int a=1.999999;
+    printf("%d",a);
+
+    return 0;
+}// using this formula online compiler easily gives us the int part of the given number
